@@ -1,0 +1,25 @@
+/* reset */
+* {
+	margin: 0; padding: 0; box-sizing: border-box;
+}
+
+body { font: 22px Apple Chancery, Edwardian Script ITC; color: #ffbf00; background-image: url(../images/bg2.jpg); background-size: 2100px 1200px; background-repeat: no-repeat; }
+
+form {
+	background: #fff0b3;
+	padding: 3px;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+
+	input { border: 0; padding: 10px; width: 90%; margin-right: 0.5%; }
+
+	button { width: 9%; background: #0080ff; color: white; font-size: 15px; border: none; padding: 10px; }
+}
+
+#messages {
+	list-style-type: none; margin: 0; padding: 0;
+
+	li { padding: 5px 10px; color: white;	}
+	li:nth-child(odd) { background: transparent; color: #00FFFD ;}
+}
